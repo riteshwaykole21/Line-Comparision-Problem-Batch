@@ -8,7 +8,7 @@ namespace LineComparisonProblem
 {
     public class Length
     {
-      int lengthX, _lengthY, lenGthsX, lengthsY;
+        int lengthX, _lengthY, lenGthsX, lengthsY;
         public Length(int lengthX, int lengthY, int lengthsX, int lengthsY)
         {
             this.lengthX = lengthX;               //These are different types to declare constructor//
@@ -22,7 +22,5 @@ namespace LineComparisonProblem
             Console.WriteLine(length);
             return length;
         }
-
     }
 }
-
