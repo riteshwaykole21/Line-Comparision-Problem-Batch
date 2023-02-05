@@ -10,7 +10,8 @@ namespace LineComparisonProblem
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Welcome to Line Comparison Problem");
+            Length length_One = new Length(9, 7, 2, 3);      //UC1
+            double length1 = length_One.Calculate();
             Console.ReadLine();
         }
     }
